@@ -25,13 +25,13 @@ There are many ways to estimate parameters of a statistical model. One of which 
 
 The process that we are trying to model can be described by
 
-$$p(y|\theta{}) = Y$$
+$$p(y\mid\theta{}) = Y$$
 
-This model read as: given a parameter $\theta{}$, the probability that this process result in $Y$ is $p(y|\theta{})$. But we do not know the real parameters. We have our uncertainty about our guesses of the true parameters. So we estimate the parameter by looking at the data or observing the joint pdf $p(y|\theta{})$. Or in another word, we make $y$ fixed for a certain range
+This model read as: given a parameter $\theta{}$, the probability that this process result in $Y$ is $p(y\mid\theta{})$. But we do not know the real parameters. We have our uncertainty about our guesses of the true parameters. So we estimate the parameter by looking at the data or observing the joint pdf $p(y\mid\theta{})$. Or in another word, we make $y$ fixed for a certain range
 
-$$L(\theta{}|y)$$
+$$L(\theta{}\midy)$$
 
-This is what is called likelihood function. It tells us the likelihood of parameter theta given the data that we observed. And its value is the same as the joint pdf $p(y|\theta{})$ for all available $\theta{}$.
+This is what is called likelihood function. It tells us the likelihood of parameter theta given the data that we observed. And its value is the same as the joint pdf $p(y\mid\theta{})$ for all available $\theta{}$.
 
 It is a distribution because it is a random variable. But we can select theta that has the highest likelihood of producing the data by finding the highest peak of this distribution. This is what is called maximum likelihood estimation.
 
