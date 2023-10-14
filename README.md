@@ -29,7 +29,7 @@ $$p(y\mid\theta{}) = Y$$
 
 This model read as: given a parameter $\theta{}$, the probability that this process result in $Y$ is $p(y\mid\theta{})$. But we do not know the real parameters. We have our uncertainty about our guesses of the true parameters. So we estimate the parameter by looking at the data or observing the joint pdf $p(y\mid\theta{})$. Or in another word, we make $y$ fixed for a certain range
 
-$$L(\theta{}\midy)$$
+$$L(\theta{}\mid y)$$
 
 This is what is called likelihood function. It tells us the likelihood of parameter theta given the data that we observed. And its value is the same as the joint pdf $p(y\mid\theta{})$ for all available $\theta{}$.
 
